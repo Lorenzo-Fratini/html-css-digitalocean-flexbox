@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+main section:nth-child(1n+2) {
+  padding-top: 60px;
+  padding-bottom: 60px
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 3.3rem;
+  color: #fff;
+}
+
+h2 {
+  color: #031c4e;
+  font-size: 2.2rem;
+  margin: 10px 0 0 0;
+}
+
+h3 {
+  color: #031c4e;
+  font-size: 1.8rem;
+}
+
+h4 {
+  color: #031c4e;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.4;
+  font-size: 1.3rem;
+  margin: 15px 0 0 0;
+  color: #5b6987;
+}
+
+.page-padding {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bg-grey {
+  background: #f3f5f9;
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #0047c5, #001d99);
+}
+
+.bg-gradient h2 {
+  color: #fff;
+}
+
+.box-head {
+  text-align: center;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 61px;
+}
+
+.nav-cont {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-cont {
+  width: 200px;
+}
+
+.logo-cont img {
+  width: 200px;
+  padding: 10px 0;
+}
+
+.nav-menu ul li {
+  margin: 0 10px 0 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-menu ul li:last-child {
+  margin: 0;
+}
+
+.nav-menu ul li i {
+  color: #031c4e;
+  margin: 0 1px;
+}
+
+.nav-menu ul li a {
+  color: #031c4e;
+}
+
+.nav-menu ul li a:hover {
+  color: #2485fd;
+}
+
+.nav-menu ul li a:hover i {
+  color: #2485fd;
+}
+
+.signup-button {
+  padding: 5px 10px;
+  border: 2px solid #2485fd;
+  color: #2485fd;
+  border-radius: 5px;
+}
+
+.signup-button:hover {
+  color: #fff!important;
+  background: #2485fd;
+}
+
+.nav-mobile {
+  color: #2485fd;
+  font-size: 2rem;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+/* main */
+/* jumbo */
+.jumbo {
+  width: 100%;
+  background-image: url(../img/jumbo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbo-text-cont {
+  width: 50%;
+}
+
+.jumbo-text-cont h1 {
+  padding: 0 25px 0 0;
+}
+
+.jumbo-text-cont p {
+  color: #97b3ff;
+}
+
+.jumbo-form {
+  width: 45%;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+
+.jumbo-form h3:nth-child(2) {
+  margin: 10px 0 0 0;
+  color: #2485fd;
+}
+
+.jumbo-form input[type=email],
+.jumbo-form input[type=password] {
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+}
+
+.jumbo-form-button {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 0 0;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.jfb-1 {
+  color: #fff;
+  background: #2485fd;
+}
+
+.jfb-1:hover {
+  background: #1633ff;
+}
+
+.jfb-2 {
+  background: #fff;
+  box-shadow: 1px 1px 2px #ccc;
+  color: #717171;
+  position: relative;
+}
+
+.jfb-2:hover {
+  color: #000;
+}
+
+.jfb-2 img {
+  max-width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(0, -50%);
+}
+
+.terms {
+  color: #031c4e;
+  margin: 20px 0 0 0;
+}
+
+.terms a {
+  text-decoration: underline;
+  color: #2485fd;
+}
+
+/* partners */
+.partners {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners-text {
+  text-align: center;
+}
+
+.top-text {
+  color: #6f7b97;
+  font-size: 1.2rem;
+}
+
+.partners-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners-cont img {
+  width: 140px;
+}
+
+.bottom-text a {
+  color: #2485fd;
+  font-weight: bold;
+}
+
+.bottom-text a:hover {
+  color: #1633ff;
+}
+
+/* configuration */
+.conf-cont {
+  width: 100%;
+  margin: 50px 0 0 0;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.conf-nav ul li {
+  list-style-type: none;
+  color: #5b6987;
+  padding: 10px 20px;
+  border-left: 2px solid #5b6987;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.conf-nav ul li:hover {
+  color: #000;
+  border-color: #2485fd;
+}
+
+.conf-box-wrap {
+  width: 70%;
+}
+
+.conf-box-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conf-box {
+  width: 46%;
+}
+
+.conf-box p,
+.feat-box p {
+  font-size: 1rem;
+  margin: 10px 0 0 0;
+}
+
+.conf-margin {
+  margin: 20px 0 0 0;
+}
